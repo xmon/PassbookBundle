@@ -16,8 +16,12 @@
         "eo/passbook": "^2.0"
     },
     "require-dev": {
-        "symfony/phpunit-bridge": "^5.2|^6.0",
-        "eo/symfony-test-edition": "dev-master"
+        "symfony/phpunit-bridge": "^5.2|^6.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "dev-feature/symfony4"
+        }
     },
     "target-dir": "Eo/PassbookBundle",
     "autoload": {
