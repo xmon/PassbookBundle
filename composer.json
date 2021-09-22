@@ -12,11 +12,7 @@
         }
     ],
     "require": {
-        "symfony/symfony": ">=2.1|~3.0|~4.0",
         "eo/passbook": "^2.0"
-    },
-    "require-dev": {
-        "symfony/phpunit-bridge": "^5.2|^6.0"
     },
     "extra": {
         "branch-alias": {
