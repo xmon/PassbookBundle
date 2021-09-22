@@ -14,15 +14,14 @@
     "require": {
         "eo/passbook": "^2.0"
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "dev-feature/symfony4"
-        }
+    "require-dev": {
+        "symfony/phpunit-bridge": "^5.2|^6.0",
+        "eo/symfony-test-edition": "dev-master"
     },
     "target-dir": "Eo/PassbookBundle",
     "autoload": {
-        "psr-4": {
-            "Eo\\PassbookBundle\\": "src/"
+        "psr-0": {
+            "Eo\\PassbookBundle": ""
         }
     }
 }
