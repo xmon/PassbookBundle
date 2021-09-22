@@ -21,8 +21,8 @@
     },
     "target-dir": "Eo/PassbookBundle",
     "autoload": {
-        "psr-0": {
-            "Eo\\PassbookBundle": ""
+        "psr-4": {
+            "Eo\\PassbookBundle\\": "src/"
         }
     }
 }
