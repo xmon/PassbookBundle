@@ -12,6 +12,8 @@
         }
     ],
     "require": {
+        "php": "^7.3 || ^8.0",
+        "symfony/framework-bundle": "^4.4.6 || ^5.3",
         "eo/passbook": "^2.0"
     },
     "require-dev": {
