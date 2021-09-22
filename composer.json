@@ -14,16 +14,25 @@
     "require": {
         "php": "^7.3 || ^8.0",
         "symfony/framework-bundle": "^4.4.6 || ^5.3",
+        "symfony/phpunit-bridge": "^5.2|^6.0",
         "eo/passbook": "^2.0"
     },
     "require-dev": {
-        "symfony/phpunit-bridge": "^5.2|^6.0",
         "eo/symfony-test-edition": "dev-master"
     },
     "target-dir": "Eo/PassbookBundle",
     "autoload": {
         "psr-0": {
             "Eo\\PassbookBundle": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        },
+        "symfony": {
+            "allow-contrib": true,
+            "require": "^4.4.6 || ^5.3"
         }
     }
 }
