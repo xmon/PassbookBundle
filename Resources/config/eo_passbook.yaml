@@ -1,0 +1,9 @@
+eo_passbook:
+  pass_type_identifier: "%pass_type_identifier%"
+  team_identifier: "%team_identifier%"
+  organization_name: "%organization_name%"
+  p12_certificate: "%p12_certificate%"
+  p12_certificate_password: "%p12_certificate_password%"
+  wwdr_certificate: "%wwdr_certificate%"
+  output_path: "%output_path_pkpass%"
+  icon_file: "%icon_file_pkpass%"
