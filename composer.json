@@ -25,9 +25,5 @@
             "Eo\\PassbookBundle": ""
         }
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x"
-        }
-    }
+    "minimum-stability": "dev"
 }
